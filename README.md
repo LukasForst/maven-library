@@ -11,3 +11,11 @@ val githubRepository = "LukasForst/maven-library"
 val descriptionForPackage = "Template repository for maven libary"
 val tags = arrayOf("kotlin", "Gradle", "Maven library")
 ```
+* to publish on Bintray, one must set secret `BintrayToken` and `BintrayUser` to github secrets.
+
+For users that are not me, please set your bintray username 
+and your website in [build.gradle.kts](build.gradle.kts) to correct values.
+```kotlin
+        userOrg = "lukas-forst"
+        websiteUrl = "https://forst.pw"
+```
