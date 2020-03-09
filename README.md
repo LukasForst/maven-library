@@ -1,4 +1,6 @@
 # JVM Library Template
+![CI Build Pipeline](https://github.com/LukasForst/maven-library/workflows/CI%20Build%20Pipeline/badge.svg)
+
 Template I'm using for the libraries published to Maven artifactory.
 It contains Github Actions with build and publish tasks to Github Packages and to Bintray.
 
