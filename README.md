@@ -7,6 +7,7 @@ It contains Github Actions with build and publish tasks to Github Packages and t
 *What must be changed when creating new library:*
 * [settings.gradle.kts](settings.gradle.kts) - name of the project
 * [build.gradle.kts](build.gradle.kts) - description and names:
+
 ```kotlin
 // ------------------------------------ Deployment Configuration  ------------------------------------
 val githubRepository = "LukasForst/maven-library"
