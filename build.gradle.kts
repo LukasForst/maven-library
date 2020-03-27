@@ -2,7 +2,7 @@ import com.jfrog.bintray.gradle.BintrayExtension
 
 plugins {
     `maven-publish`
-    kotlin("jvm") version "1.3.70"
+    kotlin("jvm") version "1.3.71"
     id("net.nemerosa.versioning") version "2.8.2"
     id("com.jfrog.bintray") version "1.8.4"
 }
